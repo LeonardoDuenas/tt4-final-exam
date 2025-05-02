@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using api.Data;
-using api.Models;
+using backend.Data;
+using backend.Models;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace api.Controllers
+namespace backend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
